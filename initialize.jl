@@ -65,8 +65,8 @@ const ComplexType = complex(FloatType)
 const ArrayType = cpu ? Array : CuArray
 const SubArrayType = cpu ? SubArray : CuArray
 
-const h1t = FloatType(parsed_args["h1"])
-const h_field = [h1t,FloatType(0.0)]
+const h1 = FloatType(parsed_args["h1"])
+const h2 = FloatType(0.0) 
 const h_psi = FloatType(0.0)
 const λ = FloatType(4.0)
 const imG = FloatType(parsed_args["imG"] )
